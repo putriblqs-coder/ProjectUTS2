@@ -132,7 +132,7 @@ menu = st.sidebar.radio(
 # ------------------- LOAD MODEL -------------------
 @st.cache_resource
 def load_model():
-    model_path = "model/Bulqis_Laporan_4.pt"
+    model_path = "Bulqis_Laporan_4.pt"
     model = YOLO(model_path)
     return model
 
